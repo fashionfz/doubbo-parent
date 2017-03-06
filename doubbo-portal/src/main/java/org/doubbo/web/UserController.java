@@ -18,6 +18,9 @@ public class UserController {
 	@RequestMapping("/add.do")
 	public void addUser(){
 		User u = new User();
+		u.setUserName("admin");
+		u.setPassword("123456");
+		u.setEmail("abc@qq.com");
 		pmsUser.addUser(u);
 	}
 }

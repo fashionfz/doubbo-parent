@@ -8,30 +8,25 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.itdb</groupId>
-  <artifactId>doubbo-user-service</artifactId>
+  <artifactId>doubbo-log</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>doubbo-user-service</name>
+  <name>doubbo-log</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-  		<dependency>
-			<groupId>com.itdb</groupId>
-			<artifactId>doubbo-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+		<dependency>
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjrt</artifactId>
+		    <version>1.8.10</version>
 		</dependency>
 		
 		<dependency>
-			<groupId>com.itdb</groupId>
-			<artifactId>doubbo-log</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>			
-		
-		<dependency>
-			<groupId>com.itdb</groupId>
-			<artifactId>doubbo-user-facede</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>		
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjweaver</artifactId>
+		    <version>1.8.10</version>
+		</dependency>	
+
   </dependencies>
 </project>
